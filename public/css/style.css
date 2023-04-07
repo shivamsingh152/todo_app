@@ -1,0 +1,44 @@
+body{
+    background-color: aquamarine;
+    color: crimson;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h1{
+    color: brown;
+    padding: 3rem;
+    font-size: 3rem;
+}
+input{
+    min-width: 550px;
+    height: 2rem;
+    border-radius: 10px 0 10px 0;
+    border: solid 1px black;
+    color: crimson;
+    font-size: 1rem;
+    outline:none;
+    background-color:whitesmoke;
+}
+::placeholder{
+    color: brown;
+}
+button{
+    width: 100px;
+    height: 2rem;
+}
+footer{
+    height: 10px;
+    width: auto;
+    display:flex ;
+    justify-content:center; 
+    align-items:center; 
+    margin-bottom: 0%;
+    border:top; 
+    bottom:0%;
+}
